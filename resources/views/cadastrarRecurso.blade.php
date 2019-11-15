@@ -40,8 +40,8 @@
 @section('content')
 <style media="screen">
   .textbox{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 9%;
+    
     margin-bottom: 20px;
   }
   #label{
@@ -53,8 +53,8 @@
       margin-bottom:20px;
     }
     .textbox{
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: -0.5%;
+      
       margin-bottom: 20px;
     }
     #label{
@@ -65,7 +65,7 @@
 </style>
 <div class="container">
   <div class="row">
-    <div class="card" style="width:100%; ">
+    <div class="card" style="width:100%; margin-top:20px;">
       <div class="card-header">
         {{ __('Requerimento de Recurso') }}
       </div>
@@ -102,14 +102,14 @@
           </div><!-- end row nome | cpf -->
 
           <!-- label | textarea -->
-          <div class="textbox" style="">
+          <div class="textbox" style="width:100%;">
 
             <div class="row">
               <label id="label" for="motivo" class=" col-form-label" >{{ __('Motivo:') }}</label>
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-10">
                 <textarea form ="formRecurso" name="motivo" id="taid" style="width:100%"></textarea>
               </div>
             </div>

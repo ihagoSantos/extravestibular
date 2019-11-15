@@ -92,7 +92,7 @@
            <div class="row justify-content-center" style="">  <!-- Nome -->
              <div class="col-sm-12">
 
-                 <input id="nome" type="text" name="nome" class="field__input a-field__input" placeholder="Nome">
+                 <input id="nome" type="text" name="nome" class="form-control field__input a-field__input" placeholder="Nome">
                </label>
               </div>
             </div><!--end Nome -->
