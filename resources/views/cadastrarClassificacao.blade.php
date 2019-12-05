@@ -132,7 +132,7 @@
         </table>
       </div><!-- end row tabela-->
 
-      
+
       <div class="row justify-content-center" style="margin-top:30px">
 
         <div class="col-sm-4">
@@ -148,7 +148,7 @@
           </span>
           @enderror
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-5">
           <label for="totalDisciplinas" class="field a-field a-field_a2 page__field" >
               <!-- <input id="totalDisciplinas" type="text" name="totalDisciplinas" autofocus class="form-control @error('totalDisciplinas') is-invalid @enderror field__input a-field__input" placeholder="EX: 12"  value="{{ old('totalDisciplinas') }}"> -->
               <span class="a-field__label-wrap">
